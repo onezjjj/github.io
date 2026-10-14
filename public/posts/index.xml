@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 我的IT技术知识库</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on 我的IT技术知识库</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 13 Oct 2026 16:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu NAT 流量转发原理</title>
+      <link>http://localhost:1313/posts/ubuntu-nat/</link>
+      <pubDate>Tue, 13 Oct 2026 16:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/ubuntu-nat/</guid>
+      <description>&lt;h2 id=&#34;一nat-是什么&#34;&gt;一、NAT 是什么？&lt;/h2&gt;
+&lt;p&gt;NAT（Network Address Translation）是网络地址转换技术。&lt;/p&gt;
+&lt;p&gt;它可以让内网设备通过一个公网地址访问外部网络。&lt;/p&gt;
+&lt;h2 id=&#34;二常见-nat-类型&#34;&gt;二、常见 NAT 类型&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SNAT：修改数据包的源 IP 地址&lt;/li&gt;
+&lt;li&gt;DNAT：修改数据包的目标 IP 地址&lt;/li&gt;
+&lt;li&gt;MASQUERADE：适用于出口地址动态变化的场景&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;三排查命令&#34;&gt;三、排查命令&lt;/h2&gt;
+&lt;p&gt;查看路由：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ip route
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
