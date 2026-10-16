@@ -20,6 +20,25 @@ hasCJKLanguage = true
 [params.article]
   readingTime = true
 
+[params.comments]
+  enabled = true
+  provider = "giscus"
+
+[params.comments.giscus]
+  repo = "onezjjj/github.io"
+  repoID = "R_kgDOVIuWCQ"
+  category = "Announcements"
+  categoryID = "DIC_kwDOVIuWCc4DIl9q"
+  mapping = "pathname"
+  strict = 0
+  reactionsEnabled = 1
+  emitMetadata = 0
+  inputPosition = "bottom"
+  lightTheme = "preferred_color_scheme"
+  darkTheme = "dark_dimmed"
+  lang = "zh-CN"
+  loading = "lazy"
+
 [params.widgets]
   homepage = [
     { type = "search" },
